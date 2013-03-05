@@ -1,987 +1,501 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>3555EC600AF44DD8B6B09C33</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3686707659AC63BB66551C2E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>368670D0746D3C701E421D37</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>368670D3617775D85A04C03E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>36867604683A3A1C22270278</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>36867141E3B867EF46E1DBB7</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>iOS-AnimationTests.octest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>36867162EB9E2263A9F3CA31</key>
-		<dict>
-			<key>fileRef</key>
-			<string>36867ED03F16A542C748F93C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3686718FBA737D924A082D81</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>36867939DCEBC8D1CC3F0113</string>
-				<string>36867AD5A2A6C3A3F14EBE51</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>368671B67EC4237D688A6EF0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>36867465D0A5899C0758FC10</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>368671B99B1133D6C9AE8517</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/iOS-Animation.app/iOS-Animation</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>"$(SDKROOT)/Developer/Library/Frameworks"</string>
-					<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>iOS-Animation/iOS-Animation-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>iOS-AnimationTests/iOS-AnimationTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>octest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>368671CECE82FCA9D07EA933</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>iOS_AnimationTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>368671F409206AA6B2CBC1C9</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>36867EA53BD832F3E1FBA39E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3686768B4BBB58BF48415496</string>
-			<key>remoteInfo</key>
-			<string>iOS-Animation</string>
-		</dict>
-		<key>3686720DB5406268D41A9BA6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>3686768B4BBB58BF48415496</string>
-			<key>targetProxy</key>
-			<string>368671F409206AA6B2CBC1C9</string>
-		</dict>
-		<key>3686725F90E80A8A8D03DEB5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>iOS-Animation-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3686726B0F7A012B893D34D6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>iOS_AnimationTests.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>368672CB207F7CB96C06F78E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>36867E6F744E2E6AB72363BB</string>
-				<string>3686730D1F74CD48DCF14774</string>
-				<string>36867C7B013762120ED29237</string>
-				<string>368676DEA6C388C86AFBE8B1</string>
-				<string>3555EC600AF44DD8B6B09C33</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3686730D1F74CD48DCF14774</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>36867ED03F16A542C748F93C</string>
-				<string>368678E35535A452E59D29D6</string>
-				<string>36867FE07B5D7D9A4128855B</string>
-				<string>36867C352185ED610B6AEA01</string>
-				<string>DE392448B3104193BA6D68EB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3686739429B42B243ACD2E00</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>36867D1FDFBF5406300B0F6A</string>
-				<string>36867DD1A5BC28FA506405BD</string>
-				<string>36867B1CB8E4004074388C40</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>368673AE83B344CB6D4CA6C7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>368673F0BF2414D1CC475AB6</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>36867EEA30125A8A99575070</string>
-				<string>368674C1FDCF36CCD2943558</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>36867465D0A5899C0758FC10</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>368674A92154BFF197CFD39B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>368671CECE82FCA9D07EA933</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>368674C1FDCF36CCD2943558</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3555EC600AF44DD8B6B09C33</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>iOS-Animation/iOS-Animation-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>iOS-Animation/iOS-Animation-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>368675A9E8F55B43578286AC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>368674A92154BFF197CFD39B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>36867604683A3A1C22270278</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>368670D0746D3C701E421D37</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3686768B4BBB58BF48415496</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>368673F0BF2414D1CC475AB6</string>
-			<key>buildPhases</key>
-			<array>
-				<string>368678400C03AE5BC3B10688</string>
-				<string>36867FC36FBF2855525B23E1</string>
-				<string>36867FA4B5E6F88AEA1F94AF</string>
-				<string>5AC34DA481754A65A74340D4</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>iOS-Animation</string>
-			<key>productName</key>
-			<string>iOS-Animation</string>
-			<key>productReference</key>
-			<string>3686787CFE3E683081357993</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>368676DEA6C388C86AFBE8B1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3686718FBA737D924A082D81</string>
-				<string>3686726B0F7A012B893D34D6</string>
-				<string>368671CECE82FCA9D07EA933</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>iOS-AnimationTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>368677695F84A1ACEA972E0C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<string>-DNS_BLOCK_ASSERTIONS=1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>368677A2D37C7C414A264F5D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>368678400C03AE5BC3B10688</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>368679724B60881AED5F5FD1</string>
-				<string>368671B67EC4237D688A6EF0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3686787CFE3E683081357993</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>iOS-Animation.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>368678A636D4EF60DBABF9E4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>368678E35535A452E59D29D6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>368678DBE46F556C67A58D51</key>
-		<dict>
-			<key>fileRef</key>
-			<string>368677A2D37C7C414A264F5D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>368678E31846365252046E0C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/iOS-Animation.app/iOS-Animation</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>"$(SDKROOT)/Developer/Library/Frameworks"</string>
-					<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>iOS-Animation/iOS-Animation-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>iOS-AnimationTests/iOS-AnimationTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>octest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>368678E35535A452E59D29D6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>36867913451338786976364D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string># Run the unit tests in this test bundle.
-"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests"
-</string>
-		</dict>
-		<key>36867939DCEBC8D1CC3F0113</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.info</string>
-			<key>path</key>
-			<string>iOS-AnimationTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>368679724B60881AED5F5FD1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>36867D474EB20C44FE2FFADA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>368679B2D6276128C0919026</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>36867A230E03F07BA77266B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>36867FE07B5D7D9A4128855B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>36867ACE07912816B79EA1BC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>368671B99B1133D6C9AE8517</string>
-				<string>368678E31846365252046E0C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>36867AD5A2A6C3A3F14EBE51</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>368679B2D6276128C0919026</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>36867AF6F5DC7496BFB52848</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>368677695F84A1ACEA972E0C</string>
-				<string>36867D11DA50FBC7B3535C77</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>36867B1CB8E4004074388C40</key>
-		<dict>
-			<key>fileRef</key>
-			<string>368678E35535A452E59D29D6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>36867C184A9F07A9BE02333D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>36867F409EEC424A3D4822A9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>36867C1E8717B9C5653D9DE0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>36867E90CEB302AC4B598830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>36867C1F49F941961B6D0196</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>36867ACE07912816B79EA1BC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>368675A9E8F55B43578286AC</string>
-				<string>3686739429B42B243ACD2E00</string>
-				<string>36867C184A9F07A9BE02333D</string>
-				<string>36867913451338786976364D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>3686720DB5406268D41A9BA6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>iOS-AnimationTests</string>
-			<key>productName</key>
-			<string>iOS-AnimationTests</string>
-			<key>productReference</key>
-			<string>36867141E3B867EF46E1DBB7</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>36867C3172D1083E4850F1D3</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.info</string>
-			<key>path</key>
-			<string>iOS-Animation-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>36867C352185ED610B6AEA01</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SenTestingKit.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/SenTestingKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>36867C685CA4A7018C4BCC9D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>36867C3172D1083E4850F1D3</string>
-				<string>36867604683A3A1C22270278</string>
-				<string>36867D474EB20C44FE2FFADA</string>
-				<string>3686725F90E80A8A8D03DEB5</string>
-				<string>368677A2D37C7C414A264F5D</string>
-				<string>368673AE83B344CB6D4CA6C7</string>
-				<string>36867E90CEB302AC4B598830</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>36867C7B013762120ED29237</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>36867C685CA4A7018C4BCC9D</string>
-				<string>3686707659AC63BB66551C2E</string>
-				<string>36867465D0A5899C0758FC10</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>iOS-Animation</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>36867D11DA50FBC7B3535C77</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>36867D1FDFBF5406300B0F6A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>36867C352185ED610B6AEA01</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>36867D474EB20C44FE2FFADA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>36867DD1A5BC28FA506405BD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>36867ED03F16A542C748F93C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>36867DE6604B3926BA1A4605</key>
-		<dict>
-			<key>fileRef</key>
-			<string>368673AE83B344CB6D4CA6C7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>36867E6F744E2E6AB72363BB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3686787CFE3E683081357993</string>
-				<string>36867141E3B867EF46E1DBB7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>36867E90CEB302AC4B598830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default-568h@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>36867EA53BD832F3E1FBA39E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>36867AF6F5DC7496BFB52848</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>368672CB207F7CB96C06F78E</string>
-			<key>productRefGroup</key>
-			<string>36867E6F744E2E6AB72363BB</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>3686768B4BBB58BF48415496</string>
-				<string>36867C1F49F941961B6D0196</string>
-			</array>
-		</dict>
-		<key>36867ED03F16A542C748F93C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>36867EEA30125A8A99575070</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3555EC600AF44DD8B6B09C33</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>iOS-Animation/iOS-Animation-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>iOS-Animation/iOS-Animation-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>36867F409EEC424A3D4822A9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>36867AD5A2A6C3A3F14EBE51</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>36867FA4B5E6F88AEA1F94AF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>368670D3617775D85A04C03E</string>
-				<string>368678DBE46F556C67A58D51</string>
-				<string>36867DE6604B3926BA1A4605</string>
-				<string>36867C1E8717B9C5653D9DE0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>36867FC36FBF2855525B23E1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>36867162EB9E2263A9F3CA31</string>
-				<string>368678A636D4EF60DBABF9E4</string>
-				<string>36867A230E03F07BA77266B0</string>
-				<string>5A0FAAD5F43244EEA9C30766</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>36867FE07B5D7D9A4128855B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>5A0FAAD5F43244EEA9C30766</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE392448B3104193BA6D68EB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>5AC34DA481754A65A74340D4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>1</string>
-		</dict>
-		<key>DE392448B3104193BA6D68EB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>36867EA53BD832F3E1FBA39E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36867065EC8D0FD2E053403B /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 36867D05A57A54849F14060C /* Utility.m */; };
+		368670D3617775D85A04C03E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36867604683A3A1C22270278 /* InfoPlist.strings */; };
+		36867162EB9E2263A9F3CA31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36867ED03F16A542C748F93C /* UIKit.framework */; };
+		368671B67EC4237D688A6EF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36867465D0A5899C0758FC10 /* AppDelegate.m */; };
+		368674A92154BFF197CFD39B /* iOS_AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 368671CECE82FCA9D07EA933 /* iOS_AnimationTests.m */; };
+		368675F1DCDCCCDDF1006032 /* AnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3686772A629F241D76FA4008 /* AnimationController.m */; };
+		368678A636D4EF60DBABF9E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368678E35535A452E59D29D6 /* Foundation.framework */; };
+		368678DBE46F556C67A58D51 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 368677A2D37C7C414A264F5D /* Default.png */; };
+		368679724B60881AED5F5FD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36867D474EB20C44FE2FFADA /* main.m */; };
+		36867A230E03F07BA77266B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36867FE07B5D7D9A4128855B /* CoreGraphics.framework */; };
+		36867B1CB8E4004074388C40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368678E35535A452E59D29D6 /* Foundation.framework */; };
+		36867B7CD7B974DC8380DEDE /* RootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36867972EEE0499A196F33AD /* RootView.m */; };
+		36867C1E8717B9C5653D9DE0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36867E90CEB302AC4B598830 /* Default-568h@2x.png */; };
+		36867D1FDFBF5406300B0F6A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36867C352185ED610B6AEA01 /* SenTestingKit.framework */; };
+		36867DD1A5BC28FA506405BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36867ED03F16A542C748F93C /* UIKit.framework */; };
+		36867DE6604B3926BA1A4605 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 368673AE83B344CB6D4CA6C7 /* Default@2x.png */; };
+		36867F409EEC424A3D4822A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36867AD5A2A6C3A3F14EBE51 /* InfoPlist.strings */; };
+		5A0FAAD5F43244EEA9C30766 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE392448B3104193BA6D68EB /* libPods.a */; settings = {}; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		368671F409206AA6B2CBC1C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36867EA53BD832F3E1FBA39E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3686768B4BBB58BF48415496;
+			remoteInfo = "iOS-Animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3555EC600AF44DD8B6B09C33 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		3686707659AC63BB66551C2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		368670D0746D3C701E421D37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36867141E3B867EF46E1DBB7 /* iOS-AnimationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-AnimationTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		368671CECE82FCA9D07EA933 /* iOS_AnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_AnimationTests.m; sourceTree = "<group>"; };
+		3686725F90E80A8A8D03DEB5 /* iOS-Animation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Animation-Prefix.pch"; sourceTree = "<group>"; };
+		3686726B0F7A012B893D34D6 /* iOS_AnimationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_AnimationTests.h; sourceTree = "<group>"; };
+		368673AE83B344CB6D4CA6C7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		36867465D0A5899C0758FC10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3686772A629F241D76FA4008 /* AnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationController.m; sourceTree = "<group>"; };
+		368677A2D37C7C414A264F5D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3686787CFE3E683081357993 /* iOS-Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		368678E35535A452E59D29D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36867939DCEBC8D1CC3F0113 /* iOS-AnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "iOS-AnimationTests-Info.plist"; sourceTree = "<group>"; };
+		36867972EEE0499A196F33AD /* RootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootView.m; sourceTree = "<group>"; };
+		368679B2D6276128C0919026 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		368679D9E96CAB8380C97B6B /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		36867A70E65DE9347612B301 /* AnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationController.h; sourceTree = "<group>"; };
+		36867C3172D1083E4850F1D3 /* iOS-Animation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "iOS-Animation-Info.plist"; sourceTree = "<group>"; };
+		36867C352185ED610B6AEA01 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		36867C443496F8B5F057161D /* RootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootView.h; sourceTree = "<group>"; };
+		36867D05A57A54849F14060C /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		36867D474EB20C44FE2FFADA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36867E90CEB302AC4B598830 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		36867ED03F16A542C748F93C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		36867FE07B5D7D9A4128855B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE392448B3104193BA6D68EB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPods.a; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3686739429B42B243ACD2E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36867D1FDFBF5406300B0F6A /* SenTestingKit.framework in Frameworks */,
+				36867DD1A5BC28FA506405BD /* UIKit.framework in Frameworks */,
+				36867B1CB8E4004074388C40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36867FC36FBF2855525B23E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36867162EB9E2263A9F3CA31 /* UIKit.framework in Frameworks */,
+				368678A636D4EF60DBABF9E4 /* Foundation.framework in Frameworks */,
+				36867A230E03F07BA77266B0 /* CoreGraphics.framework in Frameworks */,
+				5A0FAAD5F43244EEA9C30766 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3686718FBA737D924A082D81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36867939DCEBC8D1CC3F0113 /* iOS-AnimationTests-Info.plist */,
+				36867AD5A2A6C3A3F14EBE51 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		368672CB207F7CB96C06F78E = {
+			isa = PBXGroup;
+			children = (
+				36867E6F744E2E6AB72363BB /* Products */,
+				3686730D1F74CD48DCF14774 /* Frameworks */,
+				36867C7B013762120ED29237 /* iOS-Animation */,
+				368676DEA6C388C86AFBE8B1 /* iOS-AnimationTests */,
+				3555EC600AF44DD8B6B09C33 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		3686730D1F74CD48DCF14774 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36867ED03F16A542C748F93C /* UIKit.framework */,
+				368678E35535A452E59D29D6 /* Foundation.framework */,
+				36867FE07B5D7D9A4128855B /* CoreGraphics.framework */,
+				36867C352185ED610B6AEA01 /* SenTestingKit.framework */,
+				DE392448B3104193BA6D68EB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		368675EFA2DFC858DA4272DC /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				36867D05A57A54849F14060C /* Utility.m */,
+				368679D9E96CAB8380C97B6B /* Utility.h */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		368676DEA6C388C86AFBE8B1 /* iOS-AnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				3686718FBA737D924A082D81 /* Supporting Files */,
+				3686726B0F7A012B893D34D6 /* iOS_AnimationTests.h */,
+				368671CECE82FCA9D07EA933 /* iOS_AnimationTests.m */,
+			);
+			path = "iOS-AnimationTests";
+			sourceTree = "<group>";
+		};
+		36867A3022A95FB1A141981C /* spike */ = {
+			isa = PBXGroup;
+			children = (
+				3686772A629F241D76FA4008 /* AnimationController.m */,
+				36867A70E65DE9347612B301 /* AnimationController.h */,
+				36867972EEE0499A196F33AD /* RootView.m */,
+				36867C443496F8B5F057161D /* RootView.h */,
+			);
+			lastKnownFileType = text;
+			path = spike;
+			sourceTree = "<group>";
+		};
+		36867C685CA4A7018C4BCC9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36867C3172D1083E4850F1D3 /* iOS-Animation-Info.plist */,
+				36867604683A3A1C22270278 /* InfoPlist.strings */,
+				36867D474EB20C44FE2FFADA /* main.m */,
+				3686725F90E80A8A8D03DEB5 /* iOS-Animation-Prefix.pch */,
+				368677A2D37C7C414A264F5D /* Default.png */,
+				368673AE83B344CB6D4CA6C7 /* Default@2x.png */,
+				36867E90CEB302AC4B598830 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36867C7B013762120ED29237 /* iOS-Animation */ = {
+			isa = PBXGroup;
+			children = (
+				36867C685CA4A7018C4BCC9D /* Supporting Files */,
+				3686707659AC63BB66551C2E /* AppDelegate.h */,
+				36867465D0A5899C0758FC10 /* AppDelegate.m */,
+				36867A3022A95FB1A141981C /* spike */,
+				368675EFA2DFC858DA4272DC /* utility */,
+			);
+			path = "iOS-Animation";
+			sourceTree = "<group>";
+		};
+		36867E6F744E2E6AB72363BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3686787CFE3E683081357993 /* iOS-Animation.app */,
+				36867141E3B867EF46E1DBB7 /* iOS-AnimationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3686768B4BBB58BF48415496 /* iOS-Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368673F0BF2414D1CC475AB6 /* Build configuration list for PBXNativeTarget "iOS-Animation" */;
+			buildPhases = (
+				368678400C03AE5BC3B10688 /* Sources */,
+				36867FC36FBF2855525B23E1 /* Frameworks */,
+				36867FA4B5E6F88AEA1F94AF /* Resources */,
+				5AC34DA481754A65A74340D4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Animation";
+			productName = "iOS-Animation";
+			productReference = 3686787CFE3E683081357993 /* iOS-Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36867C1F49F941961B6D0196 /* iOS-AnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36867ACE07912816B79EA1BC /* Build configuration list for PBXNativeTarget "iOS-AnimationTests" */;
+			buildPhases = (
+				368675A9E8F55B43578286AC /* Sources */,
+				3686739429B42B243ACD2E00 /* Frameworks */,
+				36867C184A9F07A9BE02333D /* Resources */,
+				36867913451338786976364D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3686720DB5406268D41A9BA6 /* PBXTargetDependency */,
+			);
+			name = "iOS-AnimationTests";
+			productName = "iOS-AnimationTests";
+			productReference = 36867141E3B867EF46E1DBB7 /* iOS-AnimationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36867EA53BD832F3E1FBA39E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 36867AF6F5DC7496BFB52848 /* Build configuration list for PBXProject "iOS-Animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 368672CB207F7CB96C06F78E;
+			productRefGroup = 36867E6F744E2E6AB72363BB /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				3686768B4BBB58BF48415496 /* iOS-Animation */,
+				36867C1F49F941961B6D0196 /* iOS-AnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36867C184A9F07A9BE02333D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36867F409EEC424A3D4822A9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36867FA4B5E6F88AEA1F94AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368670D3617775D85A04C03E /* InfoPlist.strings in Resources */,
+				368678DBE46F556C67A58D51 /* Default.png in Resources */,
+				36867DE6604B3926BA1A4605 /* Default@2x.png in Resources */,
+				36867C1E8717B9C5653D9DE0 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36867913451338786976364D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		5AC34DA481754A65A74340D4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		368675A9E8F55B43578286AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368674A92154BFF197CFD39B /* iOS_AnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368678400C03AE5BC3B10688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368679724B60881AED5F5FD1 /* main.m in Sources */,
+				368671B67EC4237D688A6EF0 /* AppDelegate.m in Sources */,
+				368675F1DCDCCCDDF1006032 /* AnimationController.m in Sources */,
+				36867B7CD7B974DC8380DEDE /* RootView.m in Sources */,
+				36867065EC8D0FD2E053403B /* Utility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3686720DB5406268D41A9BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3686768B4BBB58BF48415496 /* iOS-Animation */;
+			targetProxy = 368671F409206AA6B2CBC1C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36867604683A3A1C22270278 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368670D0746D3C701E421D37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36867AD5A2A6C3A3F14EBE51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368679B2D6276128C0919026 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		368671B99B1133D6C9AE8517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS-Animation.app/iOS-Animation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-Animation/iOS-Animation-Prefix.pch";
+				INFOPLIST_FILE = "iOS-AnimationTests/iOS-AnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		368674C1FDCF36CCD2943558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3555EC600AF44DD8B6B09C33 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-Animation/iOS-Animation-Prefix.pch";
+				INFOPLIST_FILE = "iOS-Animation/iOS-Animation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		368677695F84A1ACEA972E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		368678E31846365252046E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS-Animation.app/iOS-Animation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-Animation/iOS-Animation-Prefix.pch";
+				INFOPLIST_FILE = "iOS-AnimationTests/iOS-AnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		36867D11DA50FBC7B3535C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36867EEA30125A8A99575070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3555EC600AF44DD8B6B09C33 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-Animation/iOS-Animation-Prefix.pch";
+				INFOPLIST_FILE = "iOS-Animation/iOS-Animation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		368673F0BF2414D1CC475AB6 /* Build configuration list for PBXNativeTarget "iOS-Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36867EEA30125A8A99575070 /* Release */,
+				368674C1FDCF36CCD2943558 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36867ACE07912816B79EA1BC /* Build configuration list for PBXNativeTarget "iOS-AnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368671B99B1133D6C9AE8517 /* Release */,
+				368678E31846365252046E0C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36867AF6F5DC7496BFB52848 /* Build configuration list for PBXProject "iOS-Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368677695F84A1ACEA972E0C /* Release */,
+				36867D11DA50FBC7B3535C77 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36867EA53BD832F3E1FBA39E /* Project object */;
+}
